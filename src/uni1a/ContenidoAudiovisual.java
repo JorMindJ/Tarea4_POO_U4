@@ -7,7 +7,7 @@ public abstract class ContenidoAudiovisual {
     private String genero;
     private int id;
 
-    public ContenidoAudiovisual(String titulo, int duracionEnMinutos, String genero) {
+    public ContenidoAudiovisual(String titulo, String genero, int duracionEnMinutos) {
         this.id = contar++;
         this.titulo = titulo;
         this.duracionEnMinutos = duracionEnMinutos;
