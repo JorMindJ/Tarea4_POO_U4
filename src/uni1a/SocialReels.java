@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public class SocialReels extends ContenidoAudiovisual{
      private String nombredelreels;
      private int numerodereacciones;
+     private String descripciondelreels;
      private ArrayList<Usuario> listadeUsuario;
      
      
@@ -65,5 +66,21 @@ public class SocialReels extends ContenidoAudiovisual{
 
 		public void setListadeUsuario(ArrayList<Usuario> listadeUsuario) {
 			this.listadeUsuario = listadeUsuario;
+		}
+
+
+
+
+
+		public String getDescripciondelreels() {
+			return descripciondelreels;
+		}
+
+
+
+
+
+		public void setDescripciondelreels(String descripciondelreels) {
+			this.descripciondelreels = descripciondelreels;
 		}
 }
