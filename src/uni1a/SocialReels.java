@@ -5,7 +5,7 @@ package uni1a;
 
 import java.util.ArrayList;
 
-//Subclase Pelicula que extiende de ContenidoAudiovisual
+//Subclase SocialReels que extiende de ContenidoAudiovisual
 public class SocialReels extends ContenidoAudiovisual{
      private String nombredelreels;
      private int numerodereacciones;
