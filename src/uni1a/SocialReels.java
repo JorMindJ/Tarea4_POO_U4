@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class SocialReels extends ContenidoAudiovisual{
      private String nombredelreels;
      private int numerodereacciones;
-     private String descripciondelreels;
+  
      private ArrayList<Usuario> listadeUsuario;
      
      
