@@ -1,3 +1,6 @@
+/**
+ * Class Usuario
+ */
 package uni1a;
 
 public class Usuario {

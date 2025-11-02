@@ -1,3 +1,6 @@
+/**
+ * Class Producto
+ */
 package uni1a;
 
 public class Producto {
